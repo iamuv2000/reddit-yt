@@ -4,7 +4,7 @@ This project showcases the power of Python in automating content generation for 
 
 ## Game play Video
 
-[Gameplay] (https://drive.google.com/file/d/1my1cdN3NKcZQsJXnwHfj3xMHFGkbdl44/view?usp=sharing)
+- [Gameplay](https://drive.google.com/file/d/1my1cdN3NKcZQsJXnwHfj3xMHFGkbdl44/view?usp=sharing)
 
 ## Demonstration
 
