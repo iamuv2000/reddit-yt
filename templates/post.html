@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reddit Post</title>
+    <link rel="stylesheet" href="post.css" />
+  </head>
+  <body>
+    <div id="post" class="post">
+      <div class="vote-buttons">
+        <button class="vote-button upvote">▲</button>
+        <button class="vote-button downvote">▼</button>
+      </div>
+      <h2 class="post-title">{{post_title}}</h2>
+      <!-- <p class="post-content">{{post_body}}</p> -->
+      <p class="post-metadata">
+        Posted by <strong>{{author}}</strong> <strong>{{date}}</strong>
+      </p>
+      <p class="subreddit-name">Subreddit: <strong>{{subreddit}}</strong></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+/* Reset some default styles */
+
+body {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    width: 450px;
+}
+
+
+  /* Styles for the post container */
+.post {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 10px;
+    height: fit-content;
+}
+
+  /* Styles for the post title */
+  .post-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  /* Styles for the post content */
+  .post-content {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  /* Styles for the post metadata */
+  .post-metadata {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+  }
+
+  /* Styles for the subreddit name */
+  .subreddit-name {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 5px;
+  }
+
+  /* Styles for the upvote and downvote buttons */
+  .vote-buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .vote-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 5px;
+  }
+
+  .upvote {
+    background-color: #ff4500;
+  }
+
+  .downvote {
+    background-color: #7193ff;
+  }

@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="comment.css" />
+  </head>
+  <body>
+    <div id="comment" class="comment">
+      <div class="vote-buttons">
+        <button class="vote-button upvote">▲</button>
+        <button class="vote-button downvote">▼</button>
+      </div>
+      <p class="comment-content">{{ comment_body }}</p>
+      <p class="comment-metadata">
+        Posted by <strong>{{author}}</strong> <strong>{{date}}</strong>
+      </p>
+    </div>
+  </body>
+</html>
